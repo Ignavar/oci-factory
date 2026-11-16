@@ -8,3 +8,17 @@ upload:
         end-of-life: "2025-09-10T00:00:00Z"
         risks:
           - edge
+
+# TODO: Enable once https://github.com/canonical/node-rock/pull/24 pins ubuntu@26.04.
+#   - source: canonical/node-rock
+#     commit: <commit pinning the 26.04 build base>
+#     directory: node/22-26.04
+#     pro:
+#       services:
+#         - esm-apps
+#         - esm-infra
+#     release:
+#       22-26.04:
+#         end-of-life: "2027-04-30T00:00:00Z"
+#         risks:
+#           - edge
